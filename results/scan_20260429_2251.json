@@ -1,0 +1,307 @@
+{
+  "scanned_at": "2026-04-29T22:51:28.077973",
+  "total_raw": 33,
+  "total_unique": 30,
+  "leads": [
+    {
+      "source": "r/n8n",
+      "title": "Over 1000+ views and just 3 Comments r/n8n is just an over-bloated cow owned by a rich farmer!",
+      "url": "https://reddit.com/r/n8n/comments/1sykulq/over_1000_views_and_just_3_comments_rn8n_is_just/",
+      "score": 0,
+      "comments": 7,
+      "created": "2026-04-29T11:42:37",
+      "body": "Made a post here sometime 2 days ago. \n\nMy team needed honest feedback. My team still needs honest feedback and help. Yet in the entire of r/n8n no one except 2 people have logical feedback??? \n\nAnd yes I\u2019m going to rant! And yes someone\u2019s is gonna come up with some dumb theory on why I shouldn\u2019t ra",
+      "keyword": "help"
+    },
+    {
+      "source": "r/n8n",
+      "title": "[Workflow Included] I built an Instagram Auto Posting Workflow for beginners - auto-generates caption and images using just the post idea",
+      "url": "https://reddit.com/r/n8n/comments/1sy7bpn/workflow_included_i_built_an_instagram_auto/",
+      "score": 5,
+      "comments": 9,
+      "created": "2026-04-29T03:01:21",
+      "body": "Hey everyone,\n\nIf you\u2019re new to n8n and want to build a truly hands-off social media workflow, getting different AI models to talk to each other can feel overwhelming.\n\nAnd if you\u2019ve ever tried automating Instagram, you already know the biggest trap: the IG node refuses raw binary files. It strictly",
+      "keyword": "help"
+    },
+    {
+      "source": "r/n8n",
+      "title": "Need help to setup n8n through Docker",
+      "url": "https://reddit.com/r/n8n/comments/1sy4o7m/need_help_to_setup_n8n_through_docker/",
+      "score": 1,
+      "comments": 5,
+      "created": "2026-04-29T01:27:32",
+      "body": "I am beginner to n8n. So first I wanted to learn and play around the free version. I am trying to make an n8n instance but the error shown in the image is popping up each and every time. I am pissed off now I couldn't find the real issue. If anyone encountered the same issue and resolved it please l",
+      "keyword": "help"
+    },
+    {
+      "source": "r/n8n",
+      "title": "I built a support inbox router for a friend \u2013 turns out classification alone wasn't enough. Here's what I added.",
+      "url": "https://reddit.com/r/n8n/comments/1sy0rjl/i_built_a_support_inbox_router_for_a_friend_turns/",
+      "score": 3,
+      "comments": 6,
+      "created": "2026-04-28T23:00:53",
+      "body": "https://preview.redd.it/lzmqhhpuixxg1.png?width=4620&amp;format=png&amp;auto=webp&amp;s=196d37c88e76863d69dc223a3f1a8ddda6300ce5\n\n\ud83d\udc4b Hey everyone,\n\nQuick recap for those new to the Mike saga: Mike is a friend of mine who runs a small company. Over the last few months, I've helped him and his finance ",
+      "keyword": "help"
+    },
+    {
+      "source": "r/n8n",
+      "title": "n8n + render for podcast generation",
+      "url": "https://reddit.com/r/n8n/comments/1sxzmsz/n8n_render_for_podcast_generation/",
+      "score": 2,
+      "comments": 3,
+      "created": "2026-04-28T22:13:47",
+      "body": "I want to build a podcast generator using n8n and host it on render. It will basically be triggered using a telegram message containing a subject and it will call chatgpt to generate a simple script and use its TTS system to generate a podcast which needs to be returned on the telegram channel. Is t",
+      "keyword": "help"
+    },
+    {
+      "source": "r/n8n",
+      "title": "Cleaning messy incoming webhooks (names, phones) without a massive regex spaghetti workflow",
+      "url": "https://reddit.com/r/n8n/comments/1syeydj/cleaning_messy_incoming_webhooks_names_phones/",
+      "score": 2,
+      "comments": 6,
+      "created": "2026-04-29T07:31:23",
+      "body": "Was honestly losing my mind managing incoming leads from FB Ads and random webhooks. You know the drill: lowercase names, weird international phone formats, and addresses that look like someone mashed the keyboard.\n\nI ended up with monster workflows just using Code and Regex nodes to format everythi",
+      "keyword": "webhook"
+    },
+    {
+      "source": "r/n8n",
+      "title": "n8n hosted in AWS EC2 throwing error - Problem running workflow- Lost connection to the server",
+      "url": "https://reddit.com/r/n8n/comments/1sxacuo/n8n_hosted_in_aws_ec2_throwing_error_problem/",
+      "score": 2,
+      "comments": 7,
+      "created": "2026-04-28T03:23:30",
+      "body": "https://preview.redd.it/5673cf0qnrxg1.png?width=1919&amp;format=png&amp;auto=webp&amp;s=61ffe16e0c7e72023b5ad61c9346418a8b27bc6d\n\nThis is a n8n which i have hosted in AWS EC2 to learn about n8n. But whenever i trigger anything, it throws this message. I am frustrated, can somebody help whats wrong h",
+      "keyword": "webhook"
+    },
+    {
+      "source": "r/n8n",
+      "title": "Anyone else getting \u2018Invalid token\u2019 errors on Wait node / resume URLs after updates?",
+      "url": "https://reddit.com/r/n8n/comments/1sxa8gk/anyone_else_getting_invalid_token_errors_on_wait/",
+      "score": 2,
+      "comments": 5,
+      "created": "2026-04-28T03:19:16",
+      "body": "Has anyone else had automation workflows randomly break after updates (especially around tokens / resume URLs)?\n\nI\u2019ve been digging into a few cases where things that worked fine suddenly fail after version changes\u2014especially with webhook resumes or state-based nodes.\n\nIn one case, everything broke a",
+      "keyword": "webhook"
+    },
+    {
+      "source": "r/n8n",
+      "title": "Stuck on Webhooks + HTTP Requests (WhatsApp AI Automation) \u2014 Need Help",
+      "url": "https://reddit.com/r/n8n/comments/1sx54s9/stuck_on_webhooks_http_requests_whatsapp_ai/",
+      "score": 1,
+      "comments": 11,
+      "created": "2026-04-28T00:20:48",
+      "body": "Hey everyone,\n\nI\u2019m 16 yr old,\u00a0 learning workflow automation and trying to build a WhatsApp automation system. I\u2019ve mapped most of it out, but I\u2019m stuck on the **webhook + HTTP request part** and can\u2019t get replies to send properly.\n\n\n\n**What I\u2019m building:**\n\nAuto-replies to incoming WhatsApp messages",
+      "keyword": "webhook"
+    },
+    {
+      "source": "r/n8n",
+      "title": "I built an n8n node for disposable email inboxes with webhook support \u2014 install it now without waiting for verification",
+      "url": "https://reddit.com/r/n8n/comments/1swvzzj/i_built_an_n8n_node_for_disposable_email_inboxes/",
+      "score": 9,
+      "comments": 1,
+      "created": "2026-04-27T16:51:37",
+      "body": "Hey r/n8n \ud83d\udc4b\n\nI\u2019ve been building OpenInbox \u2014 a disposable email API \u2014 and just shipped an official n8n community node for it.\n\nWhat it does:\n\n\u2022\t\ud83d\udcec Create a temporary inbox on the fly inside your workflow\n\n\u2022\t\u26a1 Receive incoming emails as webhook triggers (no polling)\n\n\u2022\t\ud83d\udd0d Read, list, and delete messages",
+      "keyword": "webhook"
+    },
+    {
+      "source": "r/Airtable",
+      "title": "FrankenTable rebuild. I just rebuilt 20+ tables and 100's of automations. OMG it's slow.",
+      "url": "https://reddit.com/r/Airtable/comments/1sxna1f/frankentable_rebuild_i_just_rebuilt_20_tables_and/",
+      "score": 7,
+      "comments": 18,
+      "created": "2026-04-28T11:35:10",
+      "body": "I love airtable.  It suits my needs and skill set. I pair it with zapier and softr. It works. I've built a business using it as the crm. Sooooo. It was getting a bit ugly. Lots of workarounds for airtable limitations early on that are no longer limitations.  Zaps with 100s of steps. Formulas based i",
+      "keyword": "formula"
+    },
+    {
+      "source": "r/Zapier",
+      "title": "We launched our Zapier integration to post to all your social media channels - we'd like you to use it for free",
+      "url": "https://reddit.com/r/zapier/comments/1sy5xh3/we_launched_our_zapier_integration_to_post_to_all/",
+      "score": 4,
+      "comments": 0,
+      "created": "2026-04-29T02:11:49",
+      "body": "Hey all, we just launched the official Zapier integration for WoopSocial: [https://zapier.com/apps/woopsocial/integrations](https://zapier.com/apps/woopsocial/integrations)\n\nIt lets you post to all of your social media channels in a single Zap instead of having to create multiple ones.\n\nSince we hav",
+      "keyword": "help"
+    },
+    {
+      "source": "r/Zapier",
+      "title": "Can Zapier help with tracking trends (like Instagram/TikTok reels)?",
+      "url": "https://reddit.com/r/zapier/comments/1sxtw6l/can_zapier_help_with_tracking_trends_like/",
+      "score": 1,
+      "comments": 3,
+      "created": "2026-04-28T17:02:00",
+      "body": "I\u2019m trying to figure out if Zapier is actually useful for content research.\n\nFor example, I want to find and organize trending reels in the food and maybe track what competitors are posting.\n\nIs this something Zapier can handle, or does it only work for basic automation?\n\nWould appreciate real examp",
+      "keyword": "help"
+    },
+    {
+      "source": "r/Zapier",
+      "title": "I have built a CRM and tried implementing automation where meta ad leads will directly come in the CRM like as soon as the ad form is filled the lead info should come in the CRM in a form of lead",
+      "url": "https://reddit.com/r/zapier/comments/1su6bzx/i_have_built_a_crm_and_tried_implementing/",
+      "score": 2,
+      "comments": 14,
+      "created": "2026-04-24T15:12:58",
+      "body": "For that I created an app in meta's developer account and connecting the webhooks tested graph api, did everything which was possible and still the CRM doesnt connect with a facebook account except the one where i created the app the main account. So can anyone please help me with creating an automa",
+      "keyword": "help"
+    },
+    {
+      "source": "r/Zapier",
+      "title": "Zapier to Batch Add TickTick Tasks",
+      "url": "https://reddit.com/r/zapier/comments/1su1xar/zapier_to_batch_add_ticktick_tasks/",
+      "score": 2,
+      "comments": 7,
+      "created": "2026-04-24T11:42:57",
+      "body": "I am looking for helping using Zapier to batch add tasks to ticktick from a google sheet, but having trouble figuring out how to connect the two. Has anyone done this or found a different solution for batch adding? I don't want to use the native batch add as this is for PM so I need to add notes int",
+      "keyword": "help"
+    },
+    {
+      "source": "r/automation",
+      "title": "i accidentally killed 80 percent of a real estate firms manual work with a weekend hack",
+      "url": "https://reddit.com/r/automation/comments/1syx265/i_accidentally_killed_80_percent_of_a_real_estate/",
+      "score": 1,
+      "comments": 1,
+      "created": "2026-04-29T22:15:13",
+      "body": "i got tired of watching brokers drown in boring repetitive tasks . they were literally copy pasting lead data from portals into sheets and whatsapp. 2026 and people are still doing this by hand.  \n  \ni built a tiny tool using n8n and a local deepseek instance . it extracts intent like budget or loca",
+      "keyword": "workflow"
+    },
+    {
+      "source": "r/automation",
+      "title": "Using AI for Outreach Isn\u2019t the Same as Having an Automated System",
+      "url": "https://reddit.com/r/automation/comments/1sytp6c/using_ai_for_outreach_isnt_the_same_as_having_an/",
+      "score": 4,
+      "comments": 9,
+      "created": "2026-04-29T19:23:00",
+      "body": "A lot of teams think adding AI to outreach = they\u2019ve \u201cautomated\u201d their process.\n\nIn reality, most have just improved execution\u2026 not built an actual system.\n\nAI tools like Claude are great for things like:\n\n* Writing better outreach copy\n* Personalizing messages faster\n* Speeding up prospect research",
+      "keyword": "workflow"
+    },
+    {
+      "source": "r/automation",
+      "title": "AI seems more useful for automating spreadsheet syntax than spreadsheet thinking",
+      "url": "https://reddit.com/r/automation/comments/1symyfi/ai_seems_more_useful_for_automating_spreadsheet/",
+      "score": 1,
+      "comments": 5,
+      "created": "2026-04-29T13:17:59",
+      "body": "I still do a lot of spreadsheet work manually, but I\u2019ve been noticing a workflow shift lately.\n\nFor simple formulas, writing them by hand is usually still faster. But for the annoying middle zone like longer formulas, multi-condition lookups, repetitive cleanup, grouping, subtotals I\u2019m finding that ",
+      "keyword": "workflow"
+    },
+    {
+      "source": "r/automation",
+      "title": "tracked 6 competitors manually for 4 months, then automated it - here's what the diff looked like",
+      "url": "https://reddit.com/r/automation/comments/1sy6zlp/tracked_6_competitors_manually_for_4_months_then/",
+      "score": 2,
+      "comments": 4,
+      "created": "2026-04-29T02:49:30",
+      "body": "For the first four months at my current job, I spent Friday afternoons cycling through competitor sites, G2 pages, and LinkedIn - screenshotting pricing pages, noting positioning shifts, dumping everything into a Notion doc nobody read. Honest accounting: maybe 3 hours a week, and the output was bas",
+      "keyword": "workflow"
+    },
+    {
+      "source": "r/automation",
+      "title": "Automations for your brand",
+      "url": "https://reddit.com/r/automation/comments/1sy1y4s/automations_for_your_brand/",
+      "score": 2,
+      "comments": 7,
+      "created": "2026-04-28T23:47:13",
+      "body": "Been building automation tools for the last two years and wanted to share some honest reflections on what actually worked vs what sounded good on paper.\n\nThe biggest surprise? Most people don't want more features - they want fewer decisions. We started with 50+ customization options thinking that wa",
+      "keyword": "workflow"
+    },
+    {
+      "source": "r/automation",
+      "title": "How to improve code coverage for a legacy codebase ongoing migration?",
+      "url": "https://reddit.com/r/automation/comments/1syxn1h/how_to_improve_code_coverage_for_a_legacy/",
+      "score": 1,
+      "comments": 1,
+      "created": "2026-04-29T22:40:07",
+      "body": "",
+      "keyword": "automation"
+    },
+    {
+      "source": "r/automation",
+      "title": "Whats your go-to email automation setup that scales well?",
+      "url": "https://reddit.com/r/automation/comments/1syx78o/whats_your_goto_email_automation_setup_that/",
+      "score": 1,
+      "comments": 1,
+      "created": "2026-04-29T22:21:18",
+      "body": "I am the person in charge of this work and Im drowning in all the email automation tools and setups im seeing all around! I need a solid kind of automated email system to handle more advanced, multistep sequences (not just basic drip campaigns) without me constantly monitoring or fixing things. if i",
+      "keyword": "automation"
+    },
+    {
+      "source": "r/automation",
+      "title": "I replaced our marketing process with 4 AI Agents. It 3x'd our website traffic",
+      "url": "https://reddit.com/r/automation/comments/1syx6m8/i_replaced_our_marketing_process_with_4_ai_agents/",
+      "score": 1,
+      "comments": 1,
+      "created": "2026-04-29T22:20:35",
+      "body": "Little background: over the last couple weeks I started messing around with replacing most of our marketing with a few simple AI agents. wasn\u2019t some big strategic shift, more just got tired of doing the same stuff manually and wanted to see how far I could push automation with Claude and some routin",
+      "keyword": "automation"
+    },
+    {
+      "source": "r/automation",
+      "title": "why i am charging 500 dollars a month for a tool that just renames files and sorts folders",
+      "url": "https://reddit.com/r/automation/comments/1syx57h/why_i_am_charging_500_dollars_a_month_for_a_tool/",
+      "score": 1,
+      "comments": 2,
+      "created": "2026-04-29T22:18:53",
+      "body": "\n\nit sounds stupid but boring sells. i found a massive bottleneck in how firms handle documentation . instead of high level ai i built a custom parser with a dual validation layer. it extracts vendor data, dates, and amounts from inconsistent pdfs. if confidence is low it flags for human sign off. s",
+      "keyword": "automation"
+    },
+    {
+      "source": "r/Entrepreneur",
+      "title": "i built a free ai tool that audits any website's marketing and generates a pdf report",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1sxbmzl/i_built_a_free_ai_tool_that_audits_any_websites/",
+      "score": 5,
+      "comments": 21,
+      "created": "2026-04-28T04:07:09",
+      "body": "Ive been building ai systems for businesses for a while and one thing kept bugging me. Every time i took on a new client i was doing the same manual analysis over and over. Go through their website, check the SEO, read the copy, look at competitors, figure out where they're leaking money. Same proce",
+      "keyword": "automation"
+    },
+    {
+      "source": "r/Entrepreneur",
+      "title": "AI is not the product. A smoother business is.",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1suuqth/ai_is_not_the_product_a_smoother_business_is/",
+      "score": 42,
+      "comments": 81,
+      "created": "2026-04-25T08:46:21",
+      "body": "I think most businesses are buying AI for the wrong reason. They hear \u201cAI\u201d and think the value is in the tool. Chatbots. Automations. Agents. Whatever new thing is trending this week.   \n  \nBut from what I\u2019ve seen, the real value is much more boring. But from what I\u2019ve seen, the real value is much s",
+      "keyword": "automation"
+    },
+    {
+      "source": "r/Entrepreneur",
+      "title": "Car washes went from simple service businesses to real estate + subscription plays practically overnight. PE has spent billions and the math is wild",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1st95tp/car_washes_went_from_simple_service_businesses_to/",
+      "score": 203,
+      "comments": 80,
+      "created": "2026-04-23T15:02:58",
+      "body": "Ninth industry deep dive Ive posted here. Already covered pest control, HVAC, restoration, home care, landscaping, roofing, septic, and commercial cleaning. Car wash is the one that gets the most attention from first-time buyers and for good reason. The membership model has fundamentally changed the",
+      "keyword": "automation"
+    },
+    {
+      "source": "r/Entrepreneur",
+      "title": "I spent the last year auditing AI stacks inside founder businesses... Here's the 3-question audit I run before building anything.",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1ssqek0/i_spent_the_last_year_auditing_ai_stacks_inside/",
+      "score": 6,
+      "comments": 42,
+      "created": "2026-04-23T02:24:48",
+      "body": "Most of what I've been finding is the same thing, and I want to put it down somewhere other than my Obsidian.\n\nFounders doing real numbers, $30K to $300K+ a month, with AI \"projects\" open all over their business.\n\nHalf-built agents. Orphan n8n flows. A Notion board full of things marked \"in progress",
+      "keyword": "automation"
+    },
+    {
+      "source": "r/Entrepreneur",
+      "title": "The reason most local prospecting never improves: there's no learning loop built into the process",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1sygtjt/the_reason_most_local_prospecting_never_improves/",
+      "score": 1,
+      "comments": 15,
+      "created": "2026-04-29T08:45:49",
+      "body": "Hi,   \n  \nSomething I keep noticing with local outreach that doesn't get talked about much.\n\nMost local outreach workflows have a structural problem that rarely gets identified. The process resets every week. New search, new list, same extraction logic, same message approach. When results are incons",
+      "keyword": "workflow"
+    },
+    {
+      "source": "r/Entrepreneur",
+      "title": "A team recovered $200K in missed billing because they switched from spreadsheets to enforced workflows. Here is what they did.",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1sthkd4/a_team_recovered_200k_in_missed_billing_because/",
+      "score": 4,
+      "comments": 35,
+      "created": "2026-04-23T22:38:24",
+      "body": "Heard this story from someone I know who works in IP licensing at a large research university. Thought it was worth sharing because the lesson applies to any business running on spreadsheets and manual tracking.\n\nTheir team of 22 people managed $10M in annual licensing revenue across hundreds of act",
+      "keyword": "workflow"
+    }
+  ]
+}

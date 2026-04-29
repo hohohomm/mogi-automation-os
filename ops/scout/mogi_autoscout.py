@@ -45,6 +45,18 @@ TARGETS = {
     "n8n_forum": {
         "url": "https://community.n8n.io/latest.json",
         "keywords": ["help", "error", "bug", "issue", "stuck", "workflow", "webhook"]
+    },
+    "make_community": {
+        "url": "https://community.make.com/latest.json",
+        "keywords": ["help", "error", "bug", "stuck", "webhook", "scenario", "module", "filter"]
+    },
+    "bubble_forum": {
+        "url": "https://forum.bubble.io/latest.json",
+        "keywords": ["help", "error", "bug", "stuck", "plugin", "api", "workflow"]
+    },
+    "webflow_forum": {
+        "url": "https://discourse.webflow.com/latest.json",
+        "keywords": ["help", "error", "bug", "cms", "code", "form", "not working"]
     }
 }
 
@@ -92,11 +104,12 @@ def scout_reddit():
     return leads
 
 
-def scout_n8n_forum():
-    """Scout the n8n Discourse forum via API."""
+def scout_discourse(source_key):
+    """Scout any Discourse forum via its JSON API."""
     leads = []
-    url = TARGETS["n8n_forum"]["url"]
-    keywords = TARGETS["n8n_forum"]["keywords"]
+    config = TARGETS[source_key]
+    url = config["url"]
+    keywords = config["keywords"]
 
     try:
         req = urllib.request.Request(url, headers=HEADERS)
@@ -105,19 +118,19 @@ def scout_n8n_forum():
 
         for topic in data.get('topic_list', {}).get('topics', []):
             title = topic['title'].lower()
-            # Only grab if it matches a help keyword
             if any(kw in title for kw in keywords):
                 lead = {
-                    "source": "n8n_forum",
+                    "source": source_key,
                     "title": topic['title'],
-                    "url": f"https://community.n8n.io/t/{topic['slug']}/{topic['id']}",
+                    "url": f"{url.replace('/latest.json', '') if url.endswith('/latest.json') else url.replace('/.json', '')}/t/{topic['slug']}/{topic['id']}",
                     "posts_count": topic['posts_count'],
                     "views": topic.get('views', 0),
-                    "created": datetime.fromtimestamp(topic['created_at']).isoformat(),
+                    "created": datetime.fromisoformat(topic['created_at'].replace('Z', '+00:00')).isoformat() if 'T' in str(topic['created_at']) else datetime.fromtimestamp(topic['created_at']).isoformat(),
+                    "keyword": next((kw for kw in keywords if kw in title), None),
                 }
                 leads.append(lead)
     except Exception as e:
-        print(f"  ⚠ n8n forum: {e}")
+        print(f"  ⚠ {source_key}: {e}")
 
     return leads
 
@@ -138,10 +151,13 @@ def main():
     all_leads.extend(reddit_leads)
     print(f"   Found {len(reddit_leads)} leads")
 
-    print("\n📡 Scouting n8n forum...")
-    n8n_leads = scout_n8n_forum()
-    all_leads.extend(n8n_leads)
-    print(f"   Found {len(n8n_leads)} leads")
+    # Scout all Discourse-based community forums
+    discourse_sources = [k for k in TARGETS.keys() if k.endswith('_forum') or k.endswith('_community')]
+    for source_key in discourse_sources:
+        print(f"\n📡 Scouting {source_key}...")
+        leads = scout_discourse(source_key)
+        all_leads.extend(leads)
+        print(f"   Found {len(leads)} leads")
 
     # Deduplicate by URL
     seen = set()
